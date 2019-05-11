@@ -9,6 +9,7 @@ body {
 
 
 .bebold {
+    margin: 5vw; 
     align-self: center; 
     font-family: 'Major Mono Display', monospace;
     font-size: 4vh; 
