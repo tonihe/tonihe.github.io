@@ -3,6 +3,10 @@
   --parallax-bg-color: #003152; 
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
     height: 100vh; 
     width: 100vw; 
@@ -10,6 +14,12 @@ body {
     flex-flow: column wrap; 
     justify-content: center; 
     align-content: center;
+}
+
+section {
+    margin: 0; 
+    top: 0; 
+    padding: 50px; 
 }
 
 
@@ -34,6 +44,7 @@ i {
 }
 
 a {
+  font-family: 'Major Mono Display', monospace;
     text-decoration: none; 
     color: black; 
     display: inline; 
@@ -42,6 +53,7 @@ a {
 
 a:visited 
 {
+  font-family: 'Major Mono Display', monospace;
     color: black; 
     text-decoration: none; 
     color: black; 
